@@ -1,0 +1,7 @@
+lib 存放用到的第三方插件
+
+cropper 图片裁剪的插件
+layui 类似 bootstrap，布局的插件
+tinymce 富文本编辑器的插件
+echarts.min.js 图表插件
+
