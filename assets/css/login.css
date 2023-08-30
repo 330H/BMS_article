@@ -16,8 +16,9 @@ body {
     background: url('/system_article/assets/images/login_bg.jpg');
 }
 
+/* 一级 */
 .layui-main {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .loginBox {
@@ -30,8 +31,42 @@ body {
     background-color: #fff;
 }
 
+/* 二级 */
 .title-box {
     height: 60px;
     background: url(../images/login_title.png) no-repeat center;
-    background-color: gainsboro;
+}
+
+.register-box {
+    display: none;
+}
+
+/* 三级 */
+.layui-form {
+    padding: 0 30px;
+}
+
+/* 四级 */
+.layui-form-item {
+    position: relative;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+}
+
+/* 五级 */
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 32px;
+}
+
+.links a {
+    font-size: 12px;
 }
